@@ -1,3 +1,6 @@
+/* eslint-disable @typescript-eslint/no-empty-interface */
+/* eslint-disable @typescript-eslint/no-inferrable-types */
+/* eslint-disable @typescript-eslint/no-unused-vars */
 (() => {
 
     // Ejemplo
@@ -9,44 +12,44 @@
         { id: 4, flagged: false },
         { id: 5, flagged: false },
         { id: 7, flagged: true },
-    ]; 
+    ] 
     
     // Archivos marcados para borrar - files to delete
-    const filesToDelete = filesToEvaluate.map( fileToEvaluate => fileToEvaluate.flagged );
+    const filesToDelete = filesToEvaluate.map( fileToEvaluate => fileToEvaluate.flagged )
 
     
-    class AbstractUser { };
-    class UserMixin { };
-    class UserImplementation { };
-    interface IUser { };
+    class AbstractUser { }
+    class UserMixin { }
+    class UserImplementation { }
+    interface IUser { }
 
     // Mejor
-    class User { };
-    interface User { };
+    class User { }
+    interface User { }
 
 
     // Todo: Tarea
         
     // día de hoy - today
-    const today = new Date();
+    const today = new Date()
     
     // días transcurridos - elapsed time in days
-    const elapsedDays: number = 23;
+    const elapsedDays: number = 23
     
     // número de archivos en un directorio - number of files in directory
-    const filesInDirectory = 33;
+    const filesInDirectory = 33
     
     // primer nombre - first name
-    const firstName = 'Fernando';
+    const firstName = 'Fernando'
     
     // primer apellido - last name
-    const lastName = 'Herrera';
+    const lastName = 'Herrera'
 
     // días desde la última modificación - days since modification
-    const lastNodificationInDays = 12;
+    const lastNodificationInDays = 12
     
     // cantidad máxima de clases por estudiante - max classes per student
-    const maxclassesPerStudent = 6;
+    const maxclassesPerStudent = 6
 
 
-})();
+})()

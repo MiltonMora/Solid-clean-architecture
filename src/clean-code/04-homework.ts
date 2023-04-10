@@ -16,15 +16,15 @@
             purple: ['moras','uvas'] 
         }
 
-        if (fruitsByColor.hasOwnProperty(color)) return fruitsByColor[color];
+        if (Object.prototype.hasOwnProperty.call(fruitsByColor, color)) return fruitsByColor[color];
         
         throw Error('the color must be: red, yellow, purple');
     }
 
-    let isFirstStepWorking  = true;
-    let isSecondStepWorking = true;
-    let isThirdStepWorking  = true;
-    let isFourthStepWorking = true;
+    const isFirstStepWorking  = true;
+    const isSecondStepWorking = true;
+    const isThirdStepWorking  = true;
+    const isFourthStepWorking = true;
 
     function workingSteps() {
 
