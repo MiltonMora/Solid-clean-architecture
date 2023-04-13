@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-unused-vars */
 (() => {
     const temperaturesInCelsius = [33.6, 12.34];
 
@@ -19,11 +20,11 @@
         throw new Error('Function not implemented.');
     }
 
-    function getBooksFromUrl( url: string) {
+    function getBooksFromUrl( _url: string) {
         throw new Error('Function not implemented.');
     }
     
-    function getSquareArea( side: number ) {
+    function getSquareArea( _side: number ) {
         throw new Error('Function not implemented.');
     }
 

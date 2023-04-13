@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-unused-vars */
 (() => {
 
     function getMovie( movieId: string ) {
@@ -23,7 +24,7 @@
         console.log({ title, description, rating, cast });
     }
 
-    function createActor( fullName: string, birthdate: Date ): boolean {
+    function createActor( _fullName: string, _birthdate: Date ): boolean {
         
         // tarea asincrona para verificar nombre
         // ..
